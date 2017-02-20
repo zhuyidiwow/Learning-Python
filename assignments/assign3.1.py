@@ -14,8 +14,8 @@ inp = raw_input('Enter rate:')
 rate = float(inp)
 
 if hours >= 40:
-	pay = 40 * rate + (hours - 40) * rate * 1.5
+    pay = 40 * rate + (hours - 40) * rate * 1.5
 else:
-	pay = rate * hours
+    pay = rate * hours
 
 print pay
